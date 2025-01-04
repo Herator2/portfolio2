@@ -43,7 +43,7 @@
                 <h2 class="text-center font-roboto font-medium">My Website</h2>
                 <p class="text-sm pt-2 font-roboto">You are currently viewing this, and this is the second edition of the website, made from scratch. Initially the website used no frameworks, but I switched to SvelteKit and Tailwind CSS for this edition alongside using some TypeScript behind the scenes.</p>
                 <div class="grid pt-3 grid-cols-1 gap-2 font-roboto">
-                    <a target="_blank" href="https://github.com/Herator2/sparx-helper" class="block text-center w-full bg-crust dark:bg-dark-crust rounded-full p-1 transition-all hover:bg-accent hover:dark:bg-accent active:scale-95">View on GitHub</a>
+                    <a target="_blank" href="https://github.com/Herator2/portfolio2" class="block text-center w-full bg-crust dark:bg-dark-crust rounded-full p-1 transition-all hover:bg-accent hover:dark:bg-accent active:scale-95">View on GitHub</a>
                 </div>
             </div>
         </div>
