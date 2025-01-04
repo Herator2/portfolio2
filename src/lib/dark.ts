@@ -1,4 +1,5 @@
-import { onMount } from "svelte";
+
+export let isDark = false;
 
 export function toggleDark() {
     const htmlElement = document.documentElement;
@@ -6,9 +7,11 @@ export function toggleDark() {
     if (htmlElement.classList.contains("dark")) {
         htmlElement.classList.remove("dark");
         localStorage.setItem("theme", "light");
+        isDark = false;
     } else {
         htmlElement.classList.add("dark");
         localStorage.setItem("theme", "dark");
+        isDark = true;
     }
 }
 
